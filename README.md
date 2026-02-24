@@ -1,1 +1,0 @@
-# LumenJam-Prep-Entry
