@@ -102,7 +102,41 @@ public class HollowMovementScript : MonoBehaviour {
             Recoil();
             Attack();
         }
-        
+        //check yvel
+        if(rb.linearVelocity.y > 0)
+        {
+            anim.SetInteger("Yvel",1);
+        }
+        else if(rb.linearVelocity.y < 0)
+        {
+            anim.SetInteger("Yvel",2);
+        }
+        else if(rb.linearVelocity.y == 0 || Grounded())
+        {
+            anim.SetInteger("Yvel",3);
+        }
+        //check xvel
+        if(rb.linearVelocity.x > 0)
+        {
+            anim.SetInteger("Xvel",1);
+        }
+        else if(rb.linearVelocity.x < 0)
+        {
+            anim.SetInteger("Xvel",2);
+        }
+        else if(rb.linearVelocity.x == 0 || Grounded())
+        {
+            anim.SetInteger("Xvel",3);
+        }
+        //check climb
+        if(isledgegrab)
+        {
+            anim.SetBool("IsClimb?",true);
+        }
+        else if(!isledgegrab)
+        {
+            anim.SetBool("IsClimb?",false);
+        }
     }
  
     void FixedUpdate()
