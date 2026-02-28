@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 8_0
+      name: BlackJump_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 158
-        width: 40
+        x: 11
+        y: 159
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c0100355fbf4a2bbdef4a6ba5f4a03
+      internalID: -2002241805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackJump_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 164
+        width: 54
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cdbcf699464ed4510800000000000000
-      internalID: 1535134168725310428
+      spriteID: 04b62f94b53c640d1abc87467d8ff629
+      internalID: -711568207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 8_1
+      name: BlackJump_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 163
-        width: 56
-        height: 30
+        x: 140
+        y: 164
+        width: 38
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93720a6fbb3067eb0800000000000000
-      internalID: -4722583053419927751
+      spriteID: 5a47dc6fe649e40bbac2daa687f3a4f9
+      internalID: -1695995344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 8_2
+      name: BlackJump_3
       rect:
         serializedVersion: 2
-        x: 139
-        y: 163
-        width: 41
-        height: 27
+        x: 203
+        y: 159
+        width: 36
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d0b6a679ee6019d10800000000000000
-      internalID: 2130491720535272205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled_Artwork 8_3
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 158
-        width: 40
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bef655a833a204a10800000000000000
-      internalID: 1891558244348162027
+      spriteID: f7da8fe6de5db453c8b7903c78f5d2ee
+      internalID: -1524558075
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dc6041e19a3804787b433c4b16451a6e
     internalID: 0
     vertices: []
     indices: 
@@ -221,12 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Untitled_Artwork 8_0: 1535134168725310428
-      Untitled_Artwork 8_1: -4722583053419927751
-      Untitled_Artwork 8_2: 2130491720535272205
-      Untitled_Artwork 8_3: 1891558244348162027
+      BlackJump_0: -2002241805
+      BlackJump_1: -711568207
+      BlackJump_2: -1695995344
+      BlackJump_3: -1524558075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
