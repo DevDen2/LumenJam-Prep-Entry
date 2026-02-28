@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "LumenJam-Prep-Entry.slnx"
+    "dotnet.defaultSolution": "LumenJam.slnx"
 }
