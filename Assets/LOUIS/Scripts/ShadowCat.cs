@@ -94,4 +94,15 @@ public class ShadowCat : MonoBehaviour
 
         Destroy(proj, 3f);
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.GameOver();
+            Debug.Log("Shadow touched player");
+        }
+    }
+    
+
 }
